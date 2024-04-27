@@ -11,3 +11,7 @@ sky:
     access-key-id: LTAI5tF41nYPaeQRNbzPz9kh
     access-key-secret: qCwZJ6XbEOjp2ImT2T4rO2qCizMHqr
     bucket-name: gelato
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
