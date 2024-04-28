@@ -1,6 +1,9 @@
 package com.sky.service;
 
 import com.sky.dto.ShoppingCartDTO;
+import com.sky.entity.ShoppingCart;
+
+import java.util.List;
 
 /**
 * ClassName: ShoppingCartService
@@ -10,4 +13,6 @@ import com.sky.dto.ShoppingCartDTO;
 * @Version 1.0
 */public interface ShoppingCartService {
     void addShoppingCart(ShoppingCartDTO shoppingCartDTO);
+
+    List<ShoppingCart> showShoppingCart();
 }
