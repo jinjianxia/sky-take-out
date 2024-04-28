@@ -17,4 +17,6 @@ import java.util.List;
     List<ShoppingCart> showShoppingCart();
 
     void cleanShoppingCart();
+
+    void subShoppingCart(ShoppingCartDTO shoppingCartDTO);
 }
