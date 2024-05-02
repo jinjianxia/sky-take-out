@@ -1,4 +1,4 @@
-package com.sky.controller.admin;
+package com.sky.controller.user;
 
 import com.sky.context.BaseContext;
 import com.sky.entity.AddressBook;
@@ -8,8 +8,17 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
+/**
+ * ClassName: AddressBookController
+ * Description:
+ *
+ * @Author jinjianxia
+ * @Create 2024/5/2 09:35
+ * @Version 1.0
+ */
 @RestController
 @RequestMapping("/user/addressBook")
 @Api(tags = "C端地址簿接口")
